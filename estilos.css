@@ -1,0 +1,68 @@
+/* Estilos básicos del sitio de la cafetería */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fbf6ef;
+  color: #3b2a20;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #6f4e37;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+header h1 {
+  margin: 8px 0 4px;
+  font-size: 2.2rem;
+}
+
+.lema {
+  margin: 0 0 16px;
+  font-style: italic;
+}
+
+nav a {
+  color: #f3e5d0;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h2 {
+  color: #6f4e37;
+  border-bottom: 2px solid #d9bfa3;
+  padding-bottom: 4px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px dotted #a67b5b;
+}
+
+footer {
+  background-color: #3b2a20;
+  color: #f3e5d0;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.9rem;
+}
